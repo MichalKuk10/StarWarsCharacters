@@ -1,0 +1,10 @@
+project/Application.class
+project/model/Character.class
+project/controller/StarWarsDataController.class
+project/config/SwaggerConfig.class
+project/mapper/CharacterMapper.class
+project/dto/CharacterDto.class
+project/repository/CharacterRepository.class
+project/controller/CharacterApiDefinition.class
+project/service/CharacterService.class
+project/service/SwapiRestClient.class

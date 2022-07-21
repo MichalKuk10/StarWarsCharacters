@@ -1,17 +1,20 @@
 package project.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "characters")
 public class Character {
+
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @Column(name= "characterid")
     private Long characterId;
     private String name;
     private Integer height;
     private Integer mass;
 
-
-    public Character(Long characterId, String name, Integer height, Integer mass) {
-        this.characterId = characterId;
-        this.name = name;
-        this.height = height;
-        this.mass = mass;
+    public Character() {
     }
 
     public String getName() {
