@@ -7,5 +7,5 @@ Tech Stack:
 *Java
 *Spring Boot
 *Swagger
-*Database: postgres
+*Database: PostgreSQL
 
