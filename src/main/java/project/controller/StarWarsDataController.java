@@ -6,6 +6,8 @@ import project.dto.CharacterResponse;
 import project.model.Character;
 import project.service.CharacterService;
 import project.service.SwapiRestClient;
+
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.springframework.http.HttpStatus.CREATED;

@@ -1,10 +1,12 @@
 /Users/michal/Desktop/Codecool/Web/people-project/src/main/java/project/service/SwapiRestClient.java
 /Users/michal/Desktop/Codecool/Web/people-project/src/main/java/project/config/SwaggerConfig.java
 /Users/michal/Desktop/Codecool/Web/people-project/src/main/java/project/controller/CharacterApiDefinition.java
+/Users/michal/Desktop/Codecool/Web/people-project/src/main/java/project/exception/CannotFindCharacterException.java
 /Users/michal/Desktop/Codecool/Web/people-project/src/main/java/project/service/CharacterService.java
 /Users/michal/Desktop/Codecool/Web/people-project/src/main/java/project/mapper/CharacterMapper.java
 /Users/michal/Desktop/Codecool/Web/people-project/src/main/java/project/repository/CharacterRepository.java
 /Users/michal/Desktop/Codecool/Web/people-project/src/main/java/project/model/Character.java
+/Users/michal/Desktop/Codecool/Web/people-project/src/main/java/project/validation/CharacterValidator.java
 /Users/michal/Desktop/Codecool/Web/people-project/src/main/java/project/Application.java
 /Users/michal/Desktop/Codecool/Web/people-project/src/main/java/project/controller/StarWarsDataController.java
-/Users/michal/Desktop/Codecool/Web/people-project/src/main/java/project/dto/CharacterDto.java
+/Users/michal/Desktop/Codecool/Web/people-project/src/main/java/project/dto/CharacterResponse.java
