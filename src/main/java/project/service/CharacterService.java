@@ -33,9 +33,9 @@ public class CharacterService {
     public CharacterResponse getCharacterById(Long id){
         Character character = repository
                 .findById(id)
+                .filter(champ -> validator.hasMinHeight(champ.getHeight()))
                 .orElseThrow(CannotFindCharacterException::new);
 
-        validator.hasMinHeight(character.getHeight());
         return mapper.mapToCharacterDto(character);
     }
 
